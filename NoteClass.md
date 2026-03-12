@@ -107,9 +107,8 @@ System.out.println(p.getNome());
 
 [3. Construção de GUI]: (para criar interfaces gráficas em Java, usamos bibliotecas, como as citadas abaixo)
 -------------------
-- javax.swing: 
-- java.awt:
-
+- javax.swing: Biblioteca do Java usada para criar interfaces gráficas (GUI) com componentes como janelas, botões, campos de texto e tabelas.
+- java.awt: Biblioteca mais antiga do Java que fornece componentes básicos de interface gráfica, layouts, cores e tratamento de eventos.
 
 * (Exemplo):
 ------ ------ ------ ------
