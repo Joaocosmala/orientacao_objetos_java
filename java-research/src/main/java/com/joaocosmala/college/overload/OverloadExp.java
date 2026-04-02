@@ -1,4 +1,4 @@
-package main.java.com.joaocosmala.college.overload;
+package main.com.joaocosmala.college.overload;
 
 public class OverloadExp {
 
@@ -44,7 +44,7 @@ public class OverloadExp {
 };
 
 // - Sobrecarga (Overload):
-// Acontece quando métodos têm o mesmo nome, mas:
+// Acontece quando métodos têm o mesmo nome, mas...
 //  -- Tipos diferentes de argumentos
 //  -- Quantidade diferente
 //  -- Ordem diferente

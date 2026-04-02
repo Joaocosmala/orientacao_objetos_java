@@ -1,4 +1,4 @@
-package main.java.com.joaocosmala.college.equipmentregister;
+package com.joaocosmala.college.equipmentregister;
 
 import java.awt.*;
 import javax.swing.*;

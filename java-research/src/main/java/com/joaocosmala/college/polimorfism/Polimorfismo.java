@@ -1,8 +1,11 @@
-package main.java.com.joaocosmala.college.polimorfism;
+package com.joaocosmala.college.polimorfism;
+
+// Demo Polimorfismo - Sobrecarga de métodos (Overloading)
+// Aula de orientação a objetos - Java
 
 public class Polimorfismo {
 
-    // Classe que vai executar as operações matemáticas
+    // Classe que vai executar as operações matemáticas 
     static class OperacaoMatematica { 
 
         // soma dois números inteiros
@@ -10,7 +13,7 @@ public class Polimorfismo {
             return a + b;
         }
 
-        // soma três números ineiros
+        // soma três números ineiros.
         public int somar(int a, int b, int c) {
             return a + b + c;
         }

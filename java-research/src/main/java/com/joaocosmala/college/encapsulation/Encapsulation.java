@@ -1,4 +1,4 @@
-package main.java.com.joaocosmala.college.encapsulation;
+package com.joaocosmala.college.encapsulation;
 
 public class Encapsulation {
 
@@ -12,22 +12,22 @@ public class Encapsulation {
         // getter do nome
         public String getNome() {
             return nome;
-        }
+        };
 
         // setter do nome
         public void setNome(String nome) {
             this.nome = nome;
-        }
+        };
 
         // getter da idade
         public int getIdade() {
             return idade;
-        }
+        };
 
         // setter da idade
         public void setIdade(int idade) {
             this.idade = idade;
-        }
+        };
     }
 
     public static void main(String[] args) {

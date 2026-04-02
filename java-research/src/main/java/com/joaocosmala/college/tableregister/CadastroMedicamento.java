@@ -1,55 +1,68 @@
-package main.java.com.joaocosmala.college.tableregister;
+package main.com.joaocosmala.college.tableregister;
 
 import java.awt.*;
 import javax.swing.*;
 
+// Exemplo de cadastro de medicamentos usando Java Swing;
 public class CadastroMedicamento {
 public static void main(String[] args) {
 
-        JFrame frame = new JFrame("Cadastro de Medicamentos");
+        JFrame frame = new JFrame("Cadastro de Equipamentos");
         frame.setSize(500,250);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(new BorderLayout());
 
         // Campos de entrada
-        JPanel painelCampos = new JPanel(new GridLayout(4,2));
+        JPanel painelCampos = new JPanel(new GridLayout(8, 2));
 
-        JLabel lblNome = new JLabel("Nome do Medicamento");
-        JLabel lblPrincipio = new JLabel("Princípio Ativo");
-        JLabel lblDosagem = new JLabel("Dosagem");
-        JLabel lblValidade = new JLabel("Data de Validade");
+        JLabel lblCode = new JLabel("Código");
+        JLabel lblDescription = new JLabel("Descrição");
+        JLabel lblModel = new JLabel("Modelo");
+        JLabel lblManufacturer = new JLabel("Fabricante");
+        JLabel lblDepartment = new JLabel("Departamento");
+        JLabel lblValue = new JLabel("Valor");
+        JLabel lblAquisitionDate = new JLabel("Data Aquisição");
 
-        JTextField txtNome = new JTextField();
-        JTextField txtPrincipio = new JTextField();
-        JTextField txtDosagem = new JTextField();
-        JTextField txtValidade = new JTextField();
 
-        painelCampos.add(lblNome);
-        painelCampos.add(txtNome);
+        JTextField txtCode = new JTextField();
+        JTextField txtDescription = new JTextField();
+        JTextField txtModel = new JTextField();
+        JTextField txtManufacturer = new JTextField();
+        JTextField txtDepartment = new JTextField();
+        JTextField txtValue = new JTextField();
+        JTextField txtAquisitionDate = new JTextField();
 
-        painelCampos.add(lblPrincipio);
-        painelCampos.add(txtPrincipio);
+        painelCampos.add(lblCode);
+        painelCampos.add(txtCode);
 
-        painelCampos.add(lblDosagem);
-        painelCampos.add(txtDosagem);
+        painelCampos.add(lblDescription);
+        painelCampos.add(txtDescription);
 
-        painelCampos.add(lblValidade);
-        painelCampos.add(txtValidade);
+        painelCampos.add(lblModel);
+        painelCampos.add(txtModel);
+
+        painelCampos.add(lblManufacturer);
+        painelCampos.add(txtManufacturer);
+
+        painelCampos.add(lblDepartment);
+        painelCampos.add(txtDepartment);
+
+        painelCampos.add(lblValue);
+        painelCampos.add(txtValue);
+
+        painelCampos.add(lblAquisitionDate);
+        painelCampos.add(txtAquisitionDate);
 
         frame.add(painelCampos, BorderLayout.CENTER);
 
         // Botoes de ação
         JPanel painelBotoes = new JPanel();
 
-        JButton btnIncluir = new JButton("Incluir");
-        JButton btnExcluir = new JButton("Excluir");
-        JButton btnEditar = new JButton("Editar");
-        JButton btnSair = new JButton("Sair");
+        JButton btnSigin = new JButton("Cadastrar");
+        JButton btnClear = new JButton("Limpar");
 
-        painelBotoes.add(btnIncluir);
-        painelBotoes.add(btnExcluir);
-        painelBotoes.add(btnEditar);
-        painelBotoes.add(btnSair);
+        painelBotoes.add(btnSigin);
+        painelBotoes.add(btnClear);
 
         frame.add(painelBotoes, BorderLayout.SOUTH);
 

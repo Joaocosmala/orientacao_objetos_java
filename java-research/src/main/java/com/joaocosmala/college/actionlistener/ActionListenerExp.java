@@ -1,9 +1,9 @@
-package main.java.com.joaocosmala.college.actionlistener;
+package com.joaocosmala.college.actionlistener;
 
 
-import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import javax.swing.*;
 
 public class ActionListenerExp {
     
@@ -16,7 +16,7 @@ public class ActionListenerExp {
         JButton botao = new JButton("Clique aqui");
 
         // adicionando o ActionListener no botão
-        botao.addActionListener(new ActionListener() {
+        botao.addActionListener(new ActionListener() { // Teste comentáriioo
 
             @Override
             public void actionPerformed(ActionEvent e) {

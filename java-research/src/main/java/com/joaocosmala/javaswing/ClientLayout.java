@@ -1,4 +1,4 @@
-package main.java.com.joaocosmala.javaswing;
+package main.com.joaocosmala.javaswing;
 
 // Importa tudo[awt / swing]
 import java.awt.*;
@@ -7,21 +7,19 @@ import javax.swing.*;
 public class ClientLayout extends JFrame {
     // Passo 1
     // --------------------------------- //
-    JButton btnCadastrar, btnAlterar, btnRemover, btnPesquisar;
+    JButton btnCadastrar, btnLimpar;
     JLabel lbCodigo, lbDescricao, lbQuantidade, lbLocalizacao;
     JTextField txtCodigo, txtDescricao, txtQuantidade, txtLocalizacao;
     JPanel pnCampos, pnBotoes;
     
     public ClientLayout() {
-        setTitle("Cadastro de Produto");
+        setTitle("Cadastro de Equipamentos");
         setSize(400, 300);
 
     // Passo 2. Instanciação (Construção)
     // --------------------------------- //
         btnCadastrar = new JButton("Cadastrar");
-        btnAlterar = new JButton("Alterar");
-        btnRemover = new JButton("Remover");
-        btnPesquisar = new JButton("Pesquisar");
+        btnLimpar = new JButton("Limpar");
 
         lbCodigo = new JLabel("Código");
         lbDescricao = new JLabel("Descrição");
@@ -50,9 +48,7 @@ public class ClientLayout extends JFrame {
         pnCampos.add(txtLocalizacao);
 
         pnBotoes.add(btnCadastrar);
-        pnBotoes.add(btnAlterar);
-        pnBotoes.add(btnRemover);
-        pnBotoes.add(btnPesquisar);
+        pnBotoes.add(btnLimpar);
 
         add(pnCampos, BorderLayout.CENTER);
         add(pnBotoes, BorderLayout.SOUTH);
