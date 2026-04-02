@@ -1,4 +1,4 @@
-package main.com.joaocosmala.college.tableregister;
+package com.joaocosmala.college.tableregister;
 
 import java.awt.*;
 import javax.swing.*;

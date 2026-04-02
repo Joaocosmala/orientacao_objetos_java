@@ -1,4 +1,4 @@
-package main.java.com.joaocosmala.javaactions;
+package com.joaocosmala.javaactions;
 
 import java.awt.FlowLayout;
 import javax.swing.JButton;

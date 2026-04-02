@@ -1,4 +1,4 @@
-package main.com.joaocosmala.college.overload;
+package com.joaocosmala.college.overload;
 
 public class OverloadExp {
 

@@ -1,4 +1,4 @@
-package main.java.com.joaocosmala.javaswing;
+package com.joaocosmala.javaswing;
 
 // Importa swing[JOptionPane]
 import javax.swing.JOptionPane;

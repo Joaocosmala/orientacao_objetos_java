@@ -1,4 +1,4 @@
-package main.java.com.joaocosmala.javaswing;
+package com.joaocosmala.javaswing;
 
 // importa awt[FlowLayout]
 // importa swing[JFrame, JButton, JLabel, JTextField]

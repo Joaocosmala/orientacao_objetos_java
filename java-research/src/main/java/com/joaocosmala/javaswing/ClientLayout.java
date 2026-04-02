@@ -1,4 +1,4 @@
-package main.com.joaocosmala.javaswing;
+package com.joaocosmala.javaswing;
 
 // Importa tudo[awt / swing]
 import java.awt.*;
